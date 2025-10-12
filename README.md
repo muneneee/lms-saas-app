@@ -26,14 +26,14 @@ Deployed live on Vercel for a fast and seamless experience.
 ## 🧩 Project Structure
 
 lms-saas-app/
-├── app/                 # Next.js App Router pages, routes, and layouts
-├── components/          # Reusable UI components
-├── lib/                 # Utilities, helpers, and API logic
-├── public/              # Static assets
-├── styles/              # Global styles
-├── types/               # TypeScript definitions
-├── .env.local           # Environment variables
-├── next.config.mjs      # Next.js configuration
+├── app/                 
+├── components/          
+├── lib/                 
+├── public/              
+├── styles/              
+├── types/               
+├── .env.local          
+├── next.config.mjs      
 ├── package.json
 └── README.md
 
@@ -47,11 +47,11 @@ cd lms-saas-app
 ### Installing Dependencies
 
 npm install
-# or
+or
 yarn install
-# or
+or
 pnpm install
-# or
+or
 bun install
 
 ### Running the Project
@@ -59,30 +59,30 @@ bun install
 Start the development server:
 
 npm run dev
-# or
+or
 yarn dev
-# or
+or
 pnpm dev
-# or
+or
 bun dev
 
 ## 🌍 Environment Variables
 
 Create a .env.local file in your root directory and include the following:
 
-# Sentry
+### Sentry
 SENTRY_AUTH_TOKEN=
 
-# Vapi
+### Vapi
 NEXT_PUBLIC_VAPI_WEB_TOKEN=
 
-# Clerk
+### Clerk
 NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY=
 CLERK_SECRET_KEY=
 NEXT_PUBLIC_CLERK_SIGN_IN_URL=/sign-in
 NEXT_PUBLIC_CLERK_SIGN_IN_FALLBACK_REDIRECT_URL=/
 NEXT_PUBLIC_CLERK_SIGN_UP_FALLBACK_REDIRECT_URL=/
 
-# Supabase
+### Supabase
 NEXT_PUBLIC_SUPABASE_URL=
 NEXT_PUBLIC_SUPABASE_ANON_KEY=
