@@ -24,28 +24,28 @@ Deployed live on Vercel for a fast and seamless experience.
 - **Language:** TypeScript
 
 ## 🧩 Project Structure
+
 lms-saas-app/
-├── app/ # Next.js App Router pages, routes, and layouts
-├── components/ # Reusable UI components
-├── lib/ # Utilities, helpers, and API logic
-├── public/ # Static assets
-├── styles/ # Global styles
-├── types/ # TypeScript definitions
-├── .env.local # Environment variables
-├── next.config.mjs # Next.js configuration
+├── app/                 # Next.js App Router pages, routes, and layouts
+├── components/          # Reusable UI components
+├── lib/                 # Utilities, helpers, and API logic
+├── public/              # Static assets
+├── styles/              # Global styles
+├── types/               # TypeScript definitions
+├── .env.local           # Environment variables
+├── next.config.mjs      # Next.js configuration
 ├── package.json
 └── README.md
-
 
 ## ⚙️ Getting Started
 
 ### Cloning the Repository
 
-```bash
 git clone https://github.com/muneneee/lms-saas-app.git
 cd lms-saas-app
 
 ### Installing Dependencies
+
 npm install
 # or
 yarn install
@@ -54,8 +54,9 @@ pnpm install
 # or
 bun install
 
-## Running the Project
-### Start the development server:
+### Running the Project
+
+Start the development server:
 
 npm run dev
 # or
@@ -66,7 +67,8 @@ pnpm dev
 bun dev
 
 ## 🌍 Environment Variables
-### Create a .env.local file in your root directory and include the following:
+
+Create a .env.local file in your root directory and include the following:
 
 # Sentry
 SENTRY_AUTH_TOKEN=
